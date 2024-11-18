@@ -1,8 +1,8 @@
 [kdeglobals][Icons]
-Theme=Deepin2022-Dark
+Theme=Papirus-Dark
 
 [kdeglobals][KDE]
-widgetStyle=Breeze
+widgetStyle=AxOS
 
 [kdeglobals][General]
 ColorScheme=Deepin2022Dark

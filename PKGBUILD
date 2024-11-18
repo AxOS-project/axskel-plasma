@@ -1,6 +1,6 @@
 pkgname="axskel"
-pkgver="2.5"
-pkgrel="2"
+pkgver="2.6"
+pkgrel="1"
 pkgdesc="skel configs and looks for AxOS"
 arch=("x86_64")
 

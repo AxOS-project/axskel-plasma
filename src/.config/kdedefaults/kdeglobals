@@ -2,7 +2,7 @@
 ColorScheme=Deepin2022Dark
 
 [Icons]
-Theme=Deepin2022-Dark
+Theme=Papirus
 
 [KDE]
-widgetStyle=Breeze
+widgetStyle=AxOS

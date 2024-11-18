@@ -13,16 +13,12 @@ panel_start = panel.addWidget("org.kde.plasma.kickoff")
 panel_start.currentConfigGroup = ["General"]
 panel_start.writeConfig("icon", "deepin-launcher")
 
-panel_showd = panel.addWidget("org.kde.plasma.showdesktop")
-panel_showd.currentConfigGroup = ["General"]
-panel_showd.writeConfig("icon", "deepin-show-desktop")
-
 panel.addWidget("zayron.simple.separator")
 panel.addWidget("org.kde.plasma.panelspacer")
 panel.addWidget("org.kde.plasma.icontasks")
-
 panel.addWidget("org.kde.plasma.panelspacer")
 panel.addWidget("zayron.simple.separator")
+
 /*systemtray*/
 var systraprev = panel.addWidget("org.kde.plasma.systemtray")
 var SystrayContainmentId = systraprev.readConfig("SystrayContainmentId")
@@ -42,12 +38,11 @@ panel_clock.writeConfig("displayEvents", "false");
 panel_clock.writeConfig("showSeconds", "false");
 panel_clock.writeConfig("timeFormat", "hh:mm");
 
-panel.addWidget("org.kde.plasma.trash")
 /*Buttons of aurorae*/
 Buttons = ConfigFile("kwinrc")
 Buttons.group = "org.kde.kdecoration2"
-Buttons.writeEntry("ButtonsOnRight", "0")
-Buttons.writeEntry("ButtonsOnLeft", "XAI")
+Buttons.writeEntry("ButtonsOnRight", "XAI")
+Buttons.writeEntry("ButtonsOnLeft", "0")
 
 /* accent color config*/
 ColorAccetFile = ConfigFile("kdeglobals")
